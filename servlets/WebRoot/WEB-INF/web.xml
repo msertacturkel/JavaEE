@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>initdeneme</servlet-name>
+    <servlet-class>servlets.initdeneme</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DinamikRenk</servlet-name>
+    <servlet-class>servlets.DinamikRenk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DinamikArkaFon</servlet-name>
+    <servlet-class>servlets.DinamikArkaFon</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>initdeneme</servlet-name>
+    <url-pattern>/servlet/initdeneme</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DinamikRenk</servlet-name>
+    <url-pattern>/servlet/DinamikRenk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DinamikArkaFon</servlet-name>
+    <url-pattern>/servlet/DinamikArkaFon</url-pattern>
+  </servlet-mapping>
+
+</web-app>
