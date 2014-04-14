@@ -1,0 +1,12 @@
+    create table "CLASSICCARS"."PERSONEL"(
+        "ID" INTEGER not null generated always as identity,
+       "AD" VARCHAR(20),
+       "SOYAD" VARCHAR(20),
+       "MAAS" INTEGER,
+        constraint "SQL131201004755160" primary key ("ID")
+    );
+
+     insert into personel values (1,'Ozgur','Kilic',2000);
+     insert into personel values (2,'Sertac','Turkel',2500);
+     insert into personel values (3,'Eren','Yazici',3000);
+     insert into personel values (4,'Sonel','Uzel',3500);
