@@ -1,0 +1,9 @@
+<form action=""> <!--action doldurulmali -->
+<tablo border="1">
+<tr><td>Ad</td><td><input type="text" name="ad"></td></tr>
+<tr><td>Soyad</td><td><input type="text" name="soyad"></td></tr>
+<tr><td>Maas</td><td><input type="text" name="maas"></td></tr>
+<tr><td></td><td><input type="submit" value="submit"/>
+<input type="reset" value="reset"/></td></tr>
+</table>
+</form>

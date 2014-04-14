@@ -1,0 +1,11 @@
+response.setContentType("text/html"); //MIME
+PrintWriter out=response.getWriter()
+out.println("<form action=''> <!--action doldurulmali -->");
+out.println("<tablo border='1'>");
+out.println("<tr><td>Ad</td><td><input type='text' name='ad'></td></tr>");
+out.println("<tr><td>Soyad</td><td><input type='text' name='soyad'></td></tr>");
+out.println("<tr><td>Maas</td><td><input type='text' name='maas'></td></tr>");
+out.println("<tr><td></td><td><input type='submit' value='submit'/>");
+out.println("<input type='reset' value='reset'/></td></tr>");
+out.println("</table>");
+out.println("</form>");

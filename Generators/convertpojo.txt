@@ -1,0 +1,14 @@
+Customer
+int	customernumber
+String	customername
+String	contactlastname
+String	contactfirstname
+String	phone
+String	addressline1
+String	addressline2
+String	city
+String	state
+String	postalcode
+String	country
+int	salesrepemployeenumber
+double	creditlimit
