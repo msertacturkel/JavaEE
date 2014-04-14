@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+myeclipseTomcatServer.hiberStruts1.IEARProjectName=
+myeclipseTomcatServer.hiberStruts1.altContextRoot=/hiberStruts1
+myeclipseTomcatServer.hiberStruts1.contextRoot=/hiberStruts1
+myeclipseTomcatServer.hiberStruts1.deployIsOverProject=false
+myeclipseTomcatServer.hiberStruts1.deploymentPath=D\:\\ileriJavaKasim2013\\workspace_hiber\\.metadata\\.me_tcat\\webapps\\hiberStruts1
+myeclipseTomcatServer.hiberStruts1.isDeployed=true
+myeclipseTomcatServer.hiberStruts1.isExploded=true
+myeclipseTomcatServer.hiberStruts1.isUptoDate=true
+myeclipseTomcatServer.hiberStruts1.noFileCopy=false
+myeclipseTomcatServer.hiberStruts1.shouldBackup=false
+myeclipseTomcatServer.hiberStruts1.shouldOverwrite=false
+myeclipseTomcatServer.hiberStruts1.type=WebDeployment

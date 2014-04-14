@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/kitapSorgula.do" location="45,150" dimension="257,88" />
+  <StrutsActivity path="/sonuc.jsp" location="105,300" dimension="150,100" />
+  <StrutsActivity path="/kitapSorgula.jsp" location="120,15" dimension="110,49" />
+  <StrutsActivity path="/sorgula.do" location="15,15" dimension="78,62" />
+  <StrutsActivity path="/kitapGiris.do" location="375,150" dimension="241,88" />
+  <StrutsActivity path="/kitapGiris.jsp" location="450,15" dimension="94,49" />
+  <StrutsActivity path="/giris.do" location="345,15" dimension="62,62" />
+  <StrutsActivity path="anasayfa;6" location="345,255" dimension="88,75" />
+  <StrutsActivity path="/index.jsp" location="345,375" dimension="77,49" />
+  <StrutsActivity path="/durum.jsp" location="465,270" dimension="150,100" />
+  <StrutsTransition id="/giris.do,null,/kitapGiris.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="407,46" />
+      <AbsolutePoint location="450,46" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kitapSorgula.do,listele,/sonuc.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="173,238" />
+      <AbsolutePoint location="173,300" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kitapGiris.do,gonder,/durum.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="495,238" />
+      <AbsolutePoint location="495,270" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sorgula.do,null,/kitapSorgula.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="93,46" />
+      <AbsolutePoint location="120,46" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="anasayfa;6,null,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="389,330" />
+      <AbsolutePoint location="389,375" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kitapGiris.jsp,null,/kitapGiris.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="497,64" />
+      <AbsolutePoint location="497,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kitapSorgula.jsp,null,/kitapSorgula.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="145,64" />
+      <AbsolutePoint location="145,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

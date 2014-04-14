@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="jsfPrime"
+  id="myeclipse.1333736962391"
+  context-root="/jsfPrime"
+  j2ee-spec="5.0"
+  archive="jsfPrime.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

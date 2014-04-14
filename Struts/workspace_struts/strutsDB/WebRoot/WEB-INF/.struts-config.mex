@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/personel.do" location="60,180" dimension="291,96" />
+  <StrutsActivity path="/form/personel.jsp" location="135,45" dimension="129,51" />
+  <StrutsActivity path="/sonuc.jsp" location="133,327" dimension="150,100" />
+  <StrutsTransition id="/form/personel.jsp,null,/personel.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="205,96" />
+      <AbsolutePoint location="205,180" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/personel.do,listele,/sonuc.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="208,276" />
+      <AbsolutePoint location="208,327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

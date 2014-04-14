@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+myeclipseTomcatServer.MyWS.IEARProjectName=
+myeclipseTomcatServer.MyWS.altContextRoot=
+myeclipseTomcatServer.MyWS.contextRoot=/MyWS
+myeclipseTomcatServer.MyWS.deployIsOverProject=false
+myeclipseTomcatServer.MyWS.deploymentPath=D\:\\ileriJavaKasim2013\\workspace_ws\\.metadata\\.me_tcat\\webapps\\MyWS
+myeclipseTomcatServer.MyWS.isDeployed=true
+myeclipseTomcatServer.MyWS.isExploded=true
+myeclipseTomcatServer.MyWS.isUptoDate=true
+myeclipseTomcatServer.MyWS.noFileCopy=false
+myeclipseTomcatServer.MyWS.shouldBackup=false
+myeclipseTomcatServer.MyWS.shouldOverwrite=false
+myeclipseTomcatServer.MyWS.type=WebDeployment

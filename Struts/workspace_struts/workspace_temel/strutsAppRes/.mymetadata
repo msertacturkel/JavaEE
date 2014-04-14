@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="strutsAppRes"
+  id="myeclipse.1391244827058"
+  context-root="/strutsAppRes"
+  j2ee-spec="6.0"
+  archive="strutsAppRes.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

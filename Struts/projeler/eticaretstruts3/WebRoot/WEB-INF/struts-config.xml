@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="uyeKontrolForm" type="org.cdernek.struts.form.UyeKontrolForm" />
+    <form-bean name="urunGirisForm" type="org.cdernek.struts.form.UrunGirisForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="uyeKontrolForm"
+      input="/form/uyeKontrol.jsp"
+      name="uyeKontrolForm"
+      path="/uyeKontrol"
+      scope="request"
+      type="org.cdernek.struts.action.UyeKontrolAction">
+      <forward name="basarisiz" path="/form/uyeKontrol.jsp" />
+      
+      <forward name="basarili" path="/urunOlustur.do" />
+    </action>
+    <action
+      input="/uye1.jsp"
+      path="/alisVerisSepeti"
+      type="org.cdernek.struts.action.AlisVerisSepetiAction"
+      validate="false">
+      
+      <forward name="urunGoster" path="/urunListele.jsp" />
+      <forward name="tekrar" path="/uye1.jsp" />
+    </action>
+    <action path="/urunOlustur" type="org.cdernek.struts.action.UrunOlusturAction" >
+      <forward name="urunolustur" path="/uye1.jsp" />
+    </action>
+    <action
+      attribute="urunGirisForm"
+      input="/urunGiris.jsp"
+      name="urunGirisForm"
+      path="/urunGiris"
+      scope="request"
+      type="org.cdernek.struts.action.UrunGirisAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="listele" path="/urunleriListele.jsp" />
+    </action>
+
+
+  </action-mappings>
+
+  <message-resources parameter="org.cdernek.struts.ApplicationResources" />
+</struts-config>
+

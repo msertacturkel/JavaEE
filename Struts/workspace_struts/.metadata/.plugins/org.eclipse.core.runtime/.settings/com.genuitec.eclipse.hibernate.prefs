@@ -1,0 +1,8 @@
+#Sun Mar 18 12:58:11 EET 2012
+JPA_com.genuitec.eclipse.hibernate.JAVA_FOLDER=/strutsDB/src
+me.pref.version=4.1
+eclipse.preferences.version=1
+JPA_com.genuitec.eclipse.hibernate.GEN_DAO=true
+JPA_com.genuitec.eclipse.hibernate.GEN_POJO=true
+JPA_com.genuitec.eclipse.hibernate.JAVA_PACKAGE=org.csystem.struts.forms
+JPA_com.genuitec.eclipse.hibernate.GEN_PAGINATED=true

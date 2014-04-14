@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+.welcome
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+.oddColumn
+{
+	height: 25px;
+	text-align: left;
+	background: #9bbee5;
+}
+
+.evenColumn
+{
+	height: 25px;
+	text-align: left;
+	background: #abd0f9;	
+}
+
+.table
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: black;
+	border: 0px;
+}
+
+.button
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #305680;
+	border: 0px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.header
+{
+	background-color: #305680;
+	font-family: Georgia;
+	font-size: 13px;
+	font-weight: normal;
+	color: #abd0f9;
+	text-align: left;
+	border: 0px;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="jsfFacelet1"
+  id="myeclipse.1334376330909"
+  context-root="/jsfFacelet1"
+  j2ee-spec="5.0"
+  archive="jsfFacelet1.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

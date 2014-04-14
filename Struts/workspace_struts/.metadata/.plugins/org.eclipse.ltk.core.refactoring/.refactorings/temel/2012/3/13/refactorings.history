@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PersonelDAO.java&apos; to &apos;strutsKTM/src/com.yourcompany.struts.action&apos;&#x0D;&#x0A;- Original project: &apos;temel&apos;&#x0D;&#x0A;- Destination element: &apos;strutsKTM/src/com.yourcompany.struts.action&apos;&#x0D;&#x0A;- Original element: &apos;PersonelDAO.java&apos;" description="Copy compilation unit" destination="=strutsKTM/src&lt;com.yourcompany.struts.action" element1="/src&lt;{PersonelDAO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1332659588918" units="1" version="1.0"/>
+</session>

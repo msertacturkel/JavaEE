@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package org.csystem;
+
+/**
+ * @author Administrator
+ *
+ */
+public class PersonBean {
+	public PersonBean() {
+	}
+}

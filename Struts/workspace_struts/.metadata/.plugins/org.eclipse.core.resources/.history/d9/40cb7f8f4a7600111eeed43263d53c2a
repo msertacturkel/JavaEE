@@ -1,0 +1,13 @@
+package com.yourcompany.struts.action;
+
+public class Product {
+
+	String productcode;
+	String productname;
+	String productline;
+	String productscale;
+	String productvendor;
+	String productdescription;
+	
+	
+}

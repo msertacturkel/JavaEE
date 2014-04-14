@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JSFFlowViewLayout version="1.0">
+  <Drawing gridVisible="true" snapOn="true" />
+  <JSFFlowResource path="/personelGiris.jsp" location="180,20" dimension="127,36" />
+  <JSFFlowResource path="/personelGoster.jsp" location="160,200" dimension="139,36" />
+  <JSFFlowNavigationCase id="/personelGiris.jsp,/personelGoster.jsp,goster,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="229,56" />
+      <AbsolutePoint location="229,200" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+</JSFFlowViewLayout>
+

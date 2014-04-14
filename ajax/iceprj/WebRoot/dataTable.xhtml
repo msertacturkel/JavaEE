@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:icecore="http://www.icefaces.org/icefaces/core"
+	xmlns:ace="http://www.icefaces.org/icefaces/components"
+	xmlns:ice="http://www.icesoft.com/icefaces/component">
+
+<h:head>
+	<title>ICEfaces</title>
+</h:head>
+<h:body>
+	<h:form>
+		<ace:dataTable var="personel" value="#{personelBean.personeller}">
+
+			<ace:column headerText="Ad">
+				<h:outputText value="#{personel.ad}" />
+			</ace:column>
+
+			<ace:column headerText="Soyad">
+				<h:outputText value="#{personel.soyad}" />
+			</ace:column>
+
+			<ace:column headerText="Sales">
+				<ace:cellEditor>
+					<f:facet name="output">
+						<h:outputText value="#{personel.ad}" />
+					</f:facet>
+					<f:facet name="input">
+						<h:inputText value="#{personel.ad}" />
+					</f:facet>
+
+				</ace:cellEditor>
+
+			</ace:column>
+			<ace:column headerText="Edit Sales">
+				<ace:rowEditor />
+			</ace:column>
+		</ace:dataTable>
+	</h:form>
+</h:body>
+</html>

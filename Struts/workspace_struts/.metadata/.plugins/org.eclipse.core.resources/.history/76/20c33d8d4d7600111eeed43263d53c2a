@@ -1,0 +1,21 @@
+<%@ page language="java" pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean"%> 
+<%@ taglib uri="http://struts.apache.org/tags-html" prefix="html"%>
+<%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic"%>
+ 
+<html> 
+	<head>
+		<title>JSP for UrunSecForm form</title>
+	</head>
+	<body>
+		<html:form action="/urunSec">
+			productName : <html:select property="productName">
+			<html:options collection="products"/>
+			</html:select>
+			
+			<html:errors property="productName"/><br/>
+			<html:submit/><html:cancel/>
+		</html:form>
+	</body>
+</html>
+

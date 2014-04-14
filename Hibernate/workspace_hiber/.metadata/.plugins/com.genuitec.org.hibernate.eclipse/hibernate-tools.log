@@ -1,0 +1,46 @@
+2014-02-09 09:24:37,713 0      [      Worker-10] WARN  .hibernate.tool.hbm2x.template  - Velocimacro : VM addition rejected : generatePreciseFunctions : inline not allowed to replace existing VM
+2014-02-09 09:24:37,713 0      [      Worker-10] WARN  .hibernate.tool.hbm2x.template  - Velocimacro : VM addition rejected : logInfo : inline not allowed to replace existing VM
+2014-02-09 09:24:37,713 0      [      Worker-10] WARN  .hibernate.tool.hbm2x.template  - Velocimacro : VM addition rejected : logError : inline not allowed to replace existing VM
+2014-02-09 09:24:37,729 16     [      Worker-10] WARN  .hibernate.tool.hbm2x.template  - Velocimacro : VM addition rejected : executeQuery : inline not allowed to replace existing VM
+2014-02-09 10:33:08,891 16     [   ModalContext] WARN  .hibernate.cfg.SettingsFactory  - Could not obtain connection metadata
+java.sql.SQLTransientConnectionException: java.net.ConnectException : Error connecting to server localhost on port 1527 with message Connection refused: connect.
+	at org.apache.derby.client.am.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.client.am.SqlException.getSQLException(Unknown Source)
+	at org.apache.derby.jdbc.ClientDriver.connect(Unknown Source)
+	at org.hibernate.console.FakeDelegatingDriver.connect(FakeDelegatingDriver.java:40)
+	at java.sql.DriverManager.getConnection(DriverManager.java:582)
+	at java.sql.DriverManager.getConnection(DriverManager.java:154)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:915)
+	at org.hibernate.console.ConsoleConfiguration$3.execute(ConsoleConfiguration.java:395)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:64)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:95)
+	at org.hibernate.console.ConsoleConfiguration.buildSessionFactory(ConsoleConfiguration.java:390)
+	at com.genuitec.eclipse.hibernate.wizards.MEConsoleConfiguration.buildSessionFactory(MEConsoleConfiguration.java:225)
+	at com.genuitec.eclipse.hibernate.action.MERefreshCCAction.buildSessionFactory(MERefreshCCAction.java:121)
+	at com.genuitec.eclipse.hibernate.action.MERefreshCCAction$1.run(MERefreshCCAction.java:103)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.derby.client.am.DisconnectException: java.net.ConnectException : Error connecting to server localhost on port 1527 with message Connection refused: connect.
+	at org.apache.derby.client.net.NetAgent.<init>(Unknown Source)
+	at org.apache.derby.client.net.NetConnection.newAgent_(Unknown Source)
+	at org.apache.derby.client.am.Connection.<init>(Unknown Source)
+	at org.apache.derby.client.net.NetConnection.<init>(Unknown Source)
+	at org.apache.derby.client.net.NetConnection40.<init>(Unknown Source)
+	at org.apache.derby.client.net.ClientJDBCObjectFactoryImpl40.newNetConnection(Unknown Source)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:180)
+	at org.apache.derby.client.net.OpenSocketAction.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	... 23 more

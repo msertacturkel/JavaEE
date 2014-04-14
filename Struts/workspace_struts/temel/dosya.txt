@@ -1,0 +1,4 @@
+String ad
+String soyad
+String email
+int maas

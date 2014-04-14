@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/uyeKontrol.do" location="75,165" dimension="305,96" />
+  <StrutsActivity path="/uyeKontrol.jsp" location="150,30" dimension="111,51" />
+  <StrutsActivity path="/uye.jsp" location="165,315" dimension="150,100" />
+  <StrutsTransition id="/uyeKontrol.do,basarili,/uye.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="240,261" />
+      <AbsolutePoint location="240,315" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/uyeKontrol.jsp,null,/uyeKontrol.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="227,81" />
+      <AbsolutePoint location="227,165" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/uyeKontrol.do,basarisiz,/uyeKontrol.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="257,165" />
+      <AbsolutePoint location="257,81" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

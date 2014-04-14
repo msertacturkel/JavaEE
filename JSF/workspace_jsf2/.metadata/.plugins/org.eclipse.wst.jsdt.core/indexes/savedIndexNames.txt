@@ -1,0 +1,8 @@
+INDEX VERSION 1.122+D:\ileriJavaKasim2013\workspace_jsf2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+317000770.index
+171822064.index
+802365426.index
+3294575018.index
+1382681077.index
+2656219797.index
+966046409.index

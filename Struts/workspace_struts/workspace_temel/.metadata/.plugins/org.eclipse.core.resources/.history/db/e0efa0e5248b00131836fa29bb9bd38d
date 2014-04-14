@@ -1,0 +1,5 @@
+# Resources for parameter 'com.yourcompany.struts.ApplicationResources'
+# Project strutsValid
+user.hata=<b><font color='red'>user girmediniz</font></b>
+password.hata=password girmediniz
+yanlis.giris=username yanl,s

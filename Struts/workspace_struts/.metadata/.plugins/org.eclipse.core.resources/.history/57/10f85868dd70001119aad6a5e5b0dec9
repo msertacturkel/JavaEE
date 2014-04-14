@@ -1,0 +1,19 @@
+package org.csystem.struts.forms;
+
+
+
+
+public class Employee  {
+
+
+	private String lastname;
+	private String firstname;
+	private String extension;
+	private String email;
+	private Integer reportsto;
+	private String jobtitle;
+	
+	
+
+
+}

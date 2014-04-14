@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="jsfrender"
+  id="myeclipse.1317467557383"
+  context-root="/jsfrender"
+  j2ee-spec="5.0"
+  archive="jsfrender.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.ViewArabaTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputText value="#{bundle.ViewArabaLabel_id}"/>
+                    <h:outputText value="#{arabaController.selected.id}" title="#{bundle.ViewArabaTitle_id}"/>
+                    <h:outputText value="#{bundle.ViewArabaLabel_marka}"/>
+                    <h:outputText value="#{arabaController.selected.marka}" title="#{bundle.ViewArabaTitle_marka}"/>
+                    <h:outputText value="#{bundle.ViewArabaLabel_model}"/>
+                    <h:outputText value="#{arabaController.selected.model}" title="#{bundle.ViewArabaTitle_model}"/>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{arabaController.destroyAndView}" value="#{bundle.ViewArabaDestroyLink}"/>
+                <br />
+                <br />
+                <h:link outcome="Edit" value="#{bundle.ViewArabaEditLink}"/>
+                <br />
+                <h:commandLink action="#{arabaController.prepareCreate}" value="#{bundle.ViewArabaCreateLink}" />
+                <br />
+                <h:commandLink action="#{arabaController.prepareList}" value="#{bundle.ViewArabaShowAllLink}"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.ViewArabaIndexLink}"/>
+
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

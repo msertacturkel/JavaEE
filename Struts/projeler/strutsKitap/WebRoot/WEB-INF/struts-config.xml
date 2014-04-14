@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="kitapSorgulaForm" type="org.csystem.struts.form.KitapSorgulaForm" />
+    <form-bean name="kitapGirisForm" type="org.csystem.struts.form.KitapGirisForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards >
+    <forward name="anasayfa" path="/index.jsp" />
+
+  </global-forwards>
+
+  <action-mappings >
+    <action
+      attribute="kitapSorgulaForm"
+      input="/kitapSorgula.jsp"
+      name="kitapSorgulaForm"
+      path="/kitapSorgula"
+      scope="request"
+      type="org.csystem.struts.action.KitapSorgulaAction" >
+      <forward name="listele" path="/sonuc.jsp" />
+    </action>
+    <action forward="/kitapSorgula.jsp" path="/sorgula" />
+    <action
+      attribute="kitapGirisForm"
+      input="/kitapGiris.jsp"
+      name="kitapGirisForm"
+      path="/kitapGiris"
+      scope="request"
+      type="org.csystem.struts.action.KitapGirisAction" >
+      <forward name="gonder" path="/durum.jsp" />
+    </action>
+
+    <action forward="/kitapGiris.jsp" path="/giris" />
+
+
+  </action-mappings>
+
+  <message-resources parameter="org.csystem.struts.ApplicationResources" />
+</struts-config>
+

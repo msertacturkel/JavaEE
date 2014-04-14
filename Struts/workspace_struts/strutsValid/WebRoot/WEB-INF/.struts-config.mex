@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/kayit.do" location="45,150" dimension="272,96" />
+  <StrutsActivity path="/kayit.jsp" location="135,30" dimension="78,51" />
+  <StrutsActivity path="/uye.jsp" location="105,315" dimension="150,100" />
+  <StrutsTransition id="/kayit.jsp,null,/kayit.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="181,81" />
+      <AbsolutePoint location="181,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kayit.do,basarisiz,/kayit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="151,150" />
+      <AbsolutePoint location="151,81" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kayit.do,basarili,/uye.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="180,246" />
+      <AbsolutePoint location="180,315" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

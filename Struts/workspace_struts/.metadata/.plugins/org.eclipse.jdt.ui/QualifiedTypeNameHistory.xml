@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionForm"/>
+<fullyQualifiedTypeName name="org.csystem.db.PersonelDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionError"/>
+<fullyQualifiedTypeName name="com.yourcompany.struts.action.ProductDao"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionErrors"/>
+<fullyQualifiedTypeName name="org.apache.struts.action.ActionMessage"/>
+<fullyQualifiedTypeName name="org.apache.struts.validator.ValidatorForm"/>
+</qualifiedTypeNameHistroy>

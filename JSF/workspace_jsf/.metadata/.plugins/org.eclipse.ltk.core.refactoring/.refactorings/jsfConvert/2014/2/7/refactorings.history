@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jsfConvert/WebRoot/peronelGiris.jsp&apos; to &apos;personelGiris.jsp&apos;" description="Rename resource &apos;peronelGiris.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebRoot/peronelGiris.jsp" name="personelGiris.jsp" stamp="1392460217655" updateReferences="true"/>
+</session>

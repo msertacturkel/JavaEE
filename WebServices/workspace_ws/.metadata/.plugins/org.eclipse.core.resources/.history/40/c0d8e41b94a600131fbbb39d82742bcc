@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	function message() {
+
+		alert("Merhaba");
+	}
+</script>
+
+
+</head>
+
+<body>
+
+	This is my HTML page.
+	<br>
+</body>
+</html>

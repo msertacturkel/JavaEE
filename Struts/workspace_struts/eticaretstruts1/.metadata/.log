@@ -1,0 +1,83 @@
+!SESSION 2011-03-16 06:42:05.906 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\java\IleriJava\struts\eticaretstruts1
+
+!ENTRY org.eclipse.jface 2 0 2011-03-16 06:42:13.690
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-03-16 06:42:13.690
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@87aa16,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2011-03-16 06:42:15.594
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2011-03-16 06:42:15.594
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2011-03-16 06:42:15.594
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:16.888
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:16.966
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:17.029
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:17.107
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:17.185
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:17.232
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:17.278
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:17.325
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:17.372
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:17.434
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-03-16 06:42:17.481
+!MESSAGE Installed snippet library: C:\Users\Metin\AppData\Local\Genuitec\MyEclipse for Spring 8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY com.skyway.licensing 4 0 2011-03-16 06:42:17.559
+!MESSAGE The MyEclipse for Spring trial period has expired.  Please contact subscriptions@myeclipseide.com
+
+!ENTRY com.skyway.licensing 4 0 2011-03-16 06:42:17.590
+!MESSAGE The MyEclipse for Spring trial period has expired.  Please contact subscriptions@myeclipseide.com

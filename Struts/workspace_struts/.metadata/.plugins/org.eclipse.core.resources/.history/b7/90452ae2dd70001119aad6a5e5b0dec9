@@ -1,0 +1,62 @@
+package org.csystem.struts.forms;
+
+import org.apache.struts.action.ActionForm;
+
+public class EmployeeForm extends ActionForm {
+
+	private String lastname;
+	private String firstname;
+	private String extension;
+	private String email;
+	private Integer reportsto;
+	private String jobtitle;
+
+	public String getLastname() {
+		return lastname;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+
+	public String getFirstname() {
+		return firstname;
+	}
+
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+
+	public String getExtension() {
+		return extension;
+	}
+
+	public void setExtension(String extension) {
+		this.extension = extension;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public Integer getReportsto() {
+		return reportsto;
+	}
+
+	public void setReportsto(Integer reportsto) {
+		this.reportsto = reportsto;
+	}
+
+	public String getJobtitle() {
+		return jobtitle;
+	}
+
+	public void setJobtitle(String jobtitle) {
+		this.jobtitle = jobtitle;
+	}
+
+}

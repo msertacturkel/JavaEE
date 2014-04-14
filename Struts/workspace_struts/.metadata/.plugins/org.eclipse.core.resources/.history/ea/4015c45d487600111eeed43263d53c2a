@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/urunSec.do" location="30,165" dimension="290,96" />
+  <StrutsActivity path="/urunSec.jsp" location="120,30" dimension="96,51" />
+  <StrutsTransition id="/urunSec.jsp,null,/urunSec.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="175,81" />
+      <AbsolutePoint location="175,165" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="jsfUluslarasi"
+  id="myeclipse.1392543812044"
+  context-root="/jsfUluslarasi"
+  j2ee-spec="6.0"
+  archive="jsfUluslarasi.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

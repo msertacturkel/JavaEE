@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="personelForm" type="org.apache.struts.action.DynaActionForm">
+      <form-property name="email" type="java.lang.String" />
+      <form-property name="ad" type="java.lang.String" />
+      <form-property name="soyad" type="java.lang.String" />
+    </form-bean>
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="personelForm"
+      input="/personel.jsp"
+      name="personelForm"
+      path="/personel"
+      scope="request"
+      type="com.yourcompany.struts.action.PersonelAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="git" path="/son.jsp" />
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>
+

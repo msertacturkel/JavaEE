@@ -1,0 +1,7 @@
+<html:form action="/personel">
+   ad : <html:text property="ad"/><html:errors property="ad"/><br/>
+   soyad : <html:text property="soyad"/><html:errors property="soyad"/><br/>
+   email : <html:text property="email"/><html:errors property="email"/><br/>
+   maas : <html:text property="maas"/><html:errors property="maas"/><br/>
+ <html:submit/><html:cancel/>
+</html:form>

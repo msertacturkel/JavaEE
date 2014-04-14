@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/urunSec.do" location="405,195" dimension="290,96" />
+  <StrutsActivity path="/urunSec.jsp" location="495,30" dimension="96,51" />
+  <StrutsActivity path="/veriOku.do" location="15,15" dimension="288,96" />
+  <StrutsActivity path="veriOk;6" location="105,180" dimension="86,81" />
+  <StrutsTransition id="/veriOku.do,git,/urunSec.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="303,55" />
+      <AbsolutePoint location="495,55" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="veriOk;6,null,/veriOku.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="159,180" />
+      <AbsolutePoint location="159,111" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/urunSec.jsp,null,/urunSec.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="550,81" />
+      <AbsolutePoint location="550,195" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/index.jsp,null,/veriOku.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="160,255" />
+      <AbsolutePoint location="130,111" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="veriOk;6,null,/veriOku,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="105,215" />
+      <AbsolutePoint location="751,85" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

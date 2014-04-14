@@ -1,0 +1,48 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+
+            /*Example CSS for demo ticker*/
+
+            #ajaxticker1{
+                width: 200px;
+                height: 100px;
+                border: 1px ridge black;
+                padding: 5px;
+                background-color: #FEEEB8;
+            }
+
+            #ajaxticker1 div{ /*IE6 bug fix when text is bold and fade effect (alpha filter) is enabled. Style inner DIV with same color as outer DIV*/
+                background-color: #FEEEB8;
+            }
+
+            .someclass{
+            }
+
+        </style>
+
+        <script src="ajaxticker.js" type="text/javascript">
+
+            /***********************************************
+             * Ajax Ticker script (txt file source)- © Dynamic Drive (www.dynamicdrive.com)
+             * This notice MUST stay intact for legal use
+             * Visit http://www.dynamicdrive.com/ for this script and 100s more.
+             ***********************************************/
+
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">
+
+            var xmlfile = "tickercontent.txt" //path to ticker txt file on your server.
+
+ //ajax_ticker(xmlfile, divId, divClass, delay, optionalfadeornot)
+            new ajax_ticker(xmlfile, "ajaxticker1", "someclass", [3500], "fade")
+        </script>
+    </body>
+</html>

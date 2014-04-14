@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="115,40" size="269,77">
+    <action name="hello" location="110,28" size="150,62">
+      <result name="son" />
+      <result name="son">
+        <resourceEdge source="son" routing="0" target="son.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="son.jsp" path="/son.jsp" location="167,221" size="150,55" />
+</Struts2Diagram>
+

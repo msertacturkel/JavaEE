@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!DOCTYPE faces-config PUBLIC
+  "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.1//EN"
+  "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+<faces-config xmlns="http://java.sun.com/JSF/Configuration">
+  <managed-bean>
+    <managed-bean-name>autozip_backing</managed-bean-name>
+    <managed-bean-class>com.jsfcompref.backing.AutoZip</managed-bean-class>
+    <managed-bean-scope>session</managed-bean-scope>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>UserBean</managed-bean-name>
+    <managed-bean-class>com.jsfcompref.model.UserBean</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>simpleactionevent_backing</managed-bean-name>
+    <managed-bean-class>com.jsfcompref.backing.SimpleActionEvent</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>simplevaluechangeevent_backing</managed-bean-name>
+    <managed-bean-class>com.jsfcompref.backing.SimpleValueChangeEvent</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+  
+ <!--  Uncomment lifecycle tag below to enable MyPhaseListener phase listener -->
+ <!--
+  <lifecycle>
+    <phase-listener>com.jsfcompref.MyPhaseListener</phase-listener>
+  </lifecycle>
+ -->
+   
+     
+ <!-- Extra bonus "dependent list" example. The next section below to 
+     enables the dependent list example to work.-->       
+
+   <managed-bean>
+    <managed-bean-name>Deplist_backing</managed-bean-name>
+    <managed-bean-class>com.jsfcompref.backing.DependentList</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+   </managed-bean>
+   <managed-bean>
+    <managed-bean-name>CountriesMap</managed-bean-name>
+    <managed-bean-class>java.util.HashMap</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+    <map-entries>
+       <map-entry>
+        <key>France</key>
+        <value>fr</value>
+      </map-entry>
+      <map-entry>
+        <key>United States</key>
+        <value>us</value>
+      </map-entry>
+      <map-entry>
+        <key>India</key>
+        <value>in</value>
+      </map-entry>
+    </map-entries>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>UsCitiesMap</managed-bean-name>
+    <managed-bean-class>java.util.HashMap</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+    <map-entries>
+      <map-entry>
+        <key>New York</key>
+        <value>ny</value>
+      </map-entry>
+      <map-entry>
+        <key>San Francisco</key>
+        <value>sf</value>
+      </map-entry>
+      <map-entry>
+        <key>Los Angeles</key>
+        <value>la</value>
+      </map-entry>
+    </map-entries>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>FrCitiesMap</managed-bean-name>
+    <managed-bean-class>java.util.HashMap</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+    <map-entries>
+      <map-entry>
+        <key>Paris</key>
+        <value>ps</value>
+      </map-entry>
+      <map-entry>
+        <key>Lyon</key>
+        <value>ly</value>
+      </map-entry>
+      <map-entry>
+        <key>Orlean</key>
+        <value>ol</value>
+      </map-entry>
+    </map-entries>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>InCitiesMap</managed-bean-name>
+    <managed-bean-class>java.util.HashMap</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+    <map-entries>
+      <map-entry>
+        <key>New Delhi</key>
+        <value>nd</value>
+      </map-entry>
+      <map-entry>
+        <key>Bangalore</key>
+        <value>bl</value>
+      </map-entry>
+      <map-entry>
+        <key>Calcutta</key>
+        <value>cc</value>
+      </map-entry>
+    </map-entries>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>EmptyCitiesMap</managed-bean-name>
+    <managed-bean-class>java.util.HashMap</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+    <map-entries>
+      <map-entry>
+        <key>empty</key>
+        <value>em</value>
+      </map-entry>
+    </map-entries>
+  </managed-bean>
+<!-- end of dependent list example section -->
+   
+   
+</faces-config>

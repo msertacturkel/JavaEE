@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="jsfListener2"
+  id="myeclipse.1334341742839"
+  context-root="/jsfListener2"
+  j2ee-spec="5.0"
+  archive="jsfListener2.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

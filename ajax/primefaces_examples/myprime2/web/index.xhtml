@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:h="http://java.sun.com/jsf/html" 
+      xmlns:p="http://primefaces.prime.com.tr/ui" 
+      xmlns:f="http://java.sun.com/jsf/core" 
+      xmlns:ui="http://java.sun.com/jsf/facelets">  
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+       <h:form>
+			
+	<p:panel header="Colors">
+		<h:panelGrid columns="3">
+			<h:outputText value="AWT Color: " />
+			<p:colorPicker value="#{colorBean.color}" />
+			<h:outputText id="awtDisplay" 
+					value="#{colorBean.color}" escape="false"/>
+			
+			<h:outputText value="RGB Color: " />
+			<p:colorPicker value="#{colorBean.rgbColor}">
+				
+			</p:colorPicker>
+			<h:outputText id="rgbDisplay" 
+					value="\#{colorBean.rgbColor}" 
+					style="background-color:rgb(#{colorBean.rgbColor})"/>
+			
+			<p:commandButton value="Submit" update="awtDisplay rgbDisplay" />
+			<p:ajaxStatus style="width:16px;height:16px;">
+				<f:facet name="start">
+					<h:outputText value="" />
+				</f:facet>
+				
+				<f:facet name="complete">
+					<h:outputText value="" />
+				</f:facet>
+			</p:ajaxStatus>
+			<h:outputText />
+		</h:panelGrid>
+	</p:panel>
+	
+</h:form>
+    </h:body>
+</html>
+

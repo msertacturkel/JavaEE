@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="TreeComp"
+  id="myeclipse.1242240567184"
+  context-root="/TreeComp"
+  j2ee-spec="5.0"
+  archive="TreeComp.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

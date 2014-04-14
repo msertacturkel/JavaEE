@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/urunSec.do" location="405,225" dimension="290,96" />
+  <StrutsActivity path="/urunSec.jsp" location="480,60" dimension="96,51" />
+  <StrutsTransition id="/veriOku.do,git,/urunSec.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="333,85" />
+      <AbsolutePoint location="480,85" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/urunSec.jsp,null,/urunSec.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="550,111" />
+      <AbsolutePoint location="550,225" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/index.jsp,null,/veriOku.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="160,255" />
+      <AbsolutePoint location="160,141" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

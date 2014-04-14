@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+	<bean name="sequenceGenerator1" class="org.csystem.spring.SequenceGenerator">
+		<constructor-arg>
+			<value>30</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>A</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>100000</value>
+		</constructor-arg>
+	</bean>
+	<bean name="sequenceGenerator2" class="org.csystem.spring.SequenceGenerator">
+		<property name="prefix">
+			<value>40</value>
+		</property>
+		<property name="suffix">
+			<value>AA</value>
+		</property>
+		<property name="initial">
+			<value>100</value>
+		</property>
+	</bean>
+	<bean id="sequenceGenerator3" class="org.csystem.spring.SequenceGenerator">
+		<property name="prefix" value="20" />
+		<property name="suffix" value="SS" />
+		<property name="initial" value="111" />
+	</bean>
+
+	<bean id="sequenceGenerator4" class="org.csystem.spring.SequenceGenerator "
+		p:prefix="30" p:suffix="A" p:initial="100000" />
+	<bean id="sequenceGenerator5" class="org.csystem.spring.SequenceGenerator1">
+		<property name="initial" value="100000" />
+		<property name="suffixes">
+			<list>
+				<value>A</value>
+				<bean class="java.net.URL">
+					<constructor-arg value="http" />
+					<constructor-arg value="www.apress.com" />
+					<constructor-arg value="/" />
+				</bean>
+				<null />
+			</list>
+		</property>
+	</bean>
+
+</beans>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/dilSec.do" location="45,120" dimension="278,96" />
+  <StrutsActivity path="/kayit.jsp" location="465,0" dimension="150,100" />
+  <StrutsActivity path="/index.jsp" location="150,15" dimension="81,51" />
+  <StrutsActivity path="/kayit.do" location="450,240" dimension="272,96" />
+  <StrutsTransition id="/kayit.jsp,null,/kayit.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="586,100" />
+      <AbsolutePoint location="586,240" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dilSec.do,kayit,/kayit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="323,168" />
+      <AbsolutePoint location="510,168" />
+      <AbsolutePoint location="510,100" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dilSec.jsp,null,/dilSec.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="184,66" />
+      <AbsolutePoint location="184,120" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/index.jsp,null,/dilSec.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="184,66" />
+      <AbsolutePoint location="184,120" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

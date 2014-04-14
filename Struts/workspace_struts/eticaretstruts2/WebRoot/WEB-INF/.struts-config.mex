@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/uyeKontrol.do" location="50,50" dimension="267,96" />
+  <StrutsActivity path="/alisVerisSepeti.do" location="555,45" dimension="284,96" />
+  <StrutsActivity path="/uye.jsp" location="120,225" dimension="72,51" />
+  <StrutsActivity path="/form/uyeKontrol.jsp" location="360,270" dimension="142,51" />
+  <StrutsActivity path="/urunListele.jsp" location="615,255" dimension="111,51" />
+  <StrutsTransition id="/uye.jsp,null,/alisVerisSepeti.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="156,225" />
+      <AbsolutePoint location="156,191" />
+      <AbsolutePoint location="667,191" />
+      <AbsolutePoint location="667,141" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/uyeKontrol.do,basarili,/uye.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="126,146" />
+      <AbsolutePoint location="126,225" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/uyeKontrol.jsp,null,/uyeKontrol.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="461,270" />
+      <AbsolutePoint location="461,98" />
+      <AbsolutePoint location="317,98" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/uyeKontrol.do,basarisiz,/form/uyeKontrol.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="317,128" />
+      <AbsolutePoint location="431,128" />
+      <AbsolutePoint location="431,270" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/alisVerisSepeti.do,urunGoster,/urunListele.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="697,141" />
+      <AbsolutePoint location="697,255" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/alisVerisSepeti.do,tekrar,/uye.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="741,141" />
+      <AbsolutePoint location="741,240" />
+      <AbsolutePoint location="192,240" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

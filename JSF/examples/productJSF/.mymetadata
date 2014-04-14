@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="productJSF"
+  id="myeclipse.1333599664358"
+  context-root="/productJSF"
+  j2ee-spec="5.0"
+  archive="productJSF.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

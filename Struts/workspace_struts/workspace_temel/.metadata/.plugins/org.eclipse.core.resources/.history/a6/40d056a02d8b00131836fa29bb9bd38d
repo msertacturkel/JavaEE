@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/dilSec.do" location="105,210" dimension="278,96" />
+  <StrutsActivity path="/dilSec.jsp" location="210,45" dimension="84,51" />
+  <StrutsTransition id="/dilSec.jsp,null,/dilSec.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="244,96" />
+      <AbsolutePoint location="244,210" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

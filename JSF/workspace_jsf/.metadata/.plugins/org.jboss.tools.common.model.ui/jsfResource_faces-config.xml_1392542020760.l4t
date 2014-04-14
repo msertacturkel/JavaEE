@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/jsfResource/WebRoot/WEB-INF/faces-config.xml">
+ <TreeFormPage>
+  <Memento type="FacesConfig12">
+   <Memento collapsed="false" type="Factories"/>
+   <Memento collapsed="false" type="Lifecycle"/>
+  </Memento>
+  <Memento type="JSFApplication12">
+   <Memento collapsed="false" type="Application"/>
+   <Memento collapsed="false" type="EL Resolvers"/>
+   <Memento collapsed="false" type="Property Resolvers"/>
+   <Memento collapsed="false" type="Variable Resolvers"/>
+   <Memento collapsed="false" type="Message Bundles"/>
+   <Memento collapsed="false" type="Resource Bundles"/>
+   <Memento collapsed="false" type="Locale Config"/>
+   <Memento collapsed="false" type="Extensions"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="">
+   <Memento collapsed="false" type="Properties Editor"/>
+  </Memento>
+  <Memento type="%No text%">
+   <Memento collapsed="false" type="Managed Beans"/>
+  </Memento>
+  <Memento type="JSFManagedBean">
+   <Memento collapsed="false" type="Managed Bean"/>
+   <Memento collapsed="false" type="Properties"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="JSFNavigationRule">
+   <Memento collapsed="false" type="Navigation Rule"/>
+   <Memento collapsed="false" type="Navigation Cases"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

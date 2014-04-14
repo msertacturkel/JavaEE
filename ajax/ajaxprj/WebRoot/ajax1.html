@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title> AJAX Sample </title>
+        <script language = "JavaScript">
+            
+            var READY_STATE_UNINITIALIZED = 0;
+            var READY_STATE_LOADING = 1;
+            var READY_STATE_LOADED = 2;
+            var READY_STATE_INTERACTIVE = 3;
+            var READY_STATE_COMPLETE = 4;
+            
+            var xmlHttpRequest = null;
+            var console = null;
+            
+            /* Get the XMLHttpRequest object */
+            function getXmlHttpRequest(){
+                if (window.XMLHttpRequest){
+                    xmlHttpRequest = new XMLHttpRequest();
+                }else if (typeof ActiveXObject != "undefined"){
+                xmlHttpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            return xmlHttpRequest;
+        }
+        
+        /* Send the Http Request object to server*/
+        function sendHttpRequest(url, params, httpMethod){
+            if(httpMethod == null){
+                httpMethod = "GET";
+            }
+            xmlHttpRequest = getXmlHttpRequest();
+            if (xmlHttpRequest != null){
+                xmlHttpRequest.onreadystatechange = readyStateChangeCallback;
+                xmlHttpRequest.open(httpMethod, url, true);
+                xmlHttpRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xmlHttpRequest.send(params);
+            }
+        }
+        
+        /* Call back to monitor and receive data from server*/
+        function readyStateChangeCallback(){
+            var readyState = xmlHttpRequest.readyState;
+            var data = null;
+            if (readyState == READY_STATE_COMPLETE){
+                data = xmlHttpRequest.responseText;
+            }else{
+            data = "loading .... [" + readyState + "]";
+        }
+        displayData(data);
+    }
+    
+    /* Display the received data in the */ 
+    function displayData(data){
+        if( console != null){
+            var newLine = document.createElement("div");
+            console.appendChild(newLine);
+            var txt = document.createTextNode(data);
+            newLine.appendChild(txt);
+        }
+    }
+    
+    /* Get the data when the button is clicked */
+    function getData(){
+        console = document.getElementById("console");
+        sendHttpRequest("welcome.txt");
+    }
+    
+        </script>
+    </head>
+    <body bgcolor="white">
+        <h1>My first AJAX program!</h1>
+        <input type="button" value="Get Data" name="button" onClick="getData()">
+        <br>
+        <div id="console"> </div>
+    </body>
+</html>

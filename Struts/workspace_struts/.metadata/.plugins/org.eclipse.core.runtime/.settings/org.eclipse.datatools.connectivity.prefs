@@ -1,0 +1,5 @@
+#Sun Mar 18 11:18:33 EET 2012
+org.eclipse.datatools.connectivity.db.derby102.genericDriverTemplate=true
+eclipse.preferences.version=1
+org.eclipse.datatools.connectivity.db.derby101.genericDriverTemplate=true
+org.eclipse.datatools.connectivity.db.derby.genericDriverTemplate=true

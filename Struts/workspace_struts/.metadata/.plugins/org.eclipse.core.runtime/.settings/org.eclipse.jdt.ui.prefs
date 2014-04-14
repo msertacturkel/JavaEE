@@ -1,0 +1,20 @@
+#Sun Mar 25 12:56:34 EEST 2012
+content_assist_proposals_foreground=0,0,0
+spelling_locale_initialized=true
+org.eclipse.jdt.ui.text.templates_migrated=true
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|-94|3|2|1|49|Consolas;
+tabWidthPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+fontPropagated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+org.eclipse.jdt.ui.formatterprofiles.version=12
+content_assist_proposals_background=255,255,255
+content_assist_number_of_computers=17
+useQuickDiffPrefPage=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="org.csystem.db.PersonelDAO"><rhs name\="org.csystem.db.PersonelDAO"/></lhs><lhs name\="org.apache.struts.action.ActionMessages"><rhs name\="org.apache.struts.action.ActionErrors"/></lhs><lhs name\="org.apache.struts.action.ActionErrors"><rhs name\="org.apache.struts.action.ActionErrors"/></lhs><lhs name\="org.apache.struts.action.ActionMessage"><rhs name\="org.apache.struts.action.ActionError"/></lhs><lhs name\="org.apache.struts.action.ActionError"><rhs name\="org.apache.struts.action.ActionError"/></lhs><lhs name\="com.yourcompany.struts.action.ProductDao"><rhs name\="com.yourcompany.struts.action.ProductDao"/></lhs></history>
+org.eclipse.jdt.ui.text.code_templates_migrated=true

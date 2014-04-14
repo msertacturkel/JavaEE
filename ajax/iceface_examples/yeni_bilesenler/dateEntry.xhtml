@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:icecore="http://www.icefaces.org/icefaces/core"
+	xmlns:ace="http://www.icefaces.org/icefaces/components"
+	xmlns:ice="http://www.icesoft.com/icefaces/component">
+
+<h:head>
+	<title>ICEfaces 2</title>
+	<!-- This link tag defines rime theme for ice components-->
+	<link rel="stylesheet" type="text/css"
+		href="./xmlhttp/css/rime/rime.css" />
+</h:head>
+<!-- use styleClass ice-skin-rime for ace components -->
+<h:body styleClass="ice-skin-rime">
+	<h:form>
+			<h:panelGrid style="text-align: center;" width="100%">
+				<h:panelGroup>
+					<h:outputLabel for="selected" value="Selected Date: " />
+					<h:outputText id="selected" value="#{dateEntry.selectedDate}"
+						style="font-weight: bold;">
+						<f:convertDateTime pattern="MMMM dd, yyyy" />
+					</h:outputText>
+				</h:panelGroup>
+
+			</h:panelGrid>
+	
+
+		<h:panelGrid
+			style="margin-left: auto; margin-right: auto; text-align: center;"
+			width="100">
+			<ace:dateTimeEntry id="cal" value="#{dateEntry.selectedDate}">
+				<f:convertDateTime pattern="MM/dd/yyyy" timeZone="Canada/Mountain" />
+			</ace:dateTimeEntry>
+
+			<h:commandButton id="submit" value="Submit Date" />
+		</h:panelGrid>
+
+	</h:form>
+</h:body>
+<!-- This h:outputStylesheet is for ace components-->
+<h:outputStylesheet library="org.icefaces.component.skins"
+	name="rime.css" />
+</html>

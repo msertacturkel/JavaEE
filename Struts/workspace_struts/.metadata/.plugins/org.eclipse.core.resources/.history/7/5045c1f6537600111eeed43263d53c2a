@@ -1,0 +1,4 @@
+# Resources for parameter 'com.yourcompany.struts.ApplicationResources'
+# Project strutsValidAction
+user.hata=hatali user girisi
+password.hata=hatali password girisi

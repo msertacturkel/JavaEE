@@ -1,0 +1,21 @@
+<%@ page language="java" pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean"%> 
+<%@ taglib uri="http://struts.apache.org/tags-html" prefix="html"%>
+ 
+<html> 
+	<head>
+		<title>JSP for EmployeeForm form</title>
+	</head>
+	<body>
+		<html:form action="/[ACTION_PATH]">
+			extension : <html:text property="extension"/><html:errors property="extension"/><br/>
+			jobtitle : <html:text property="jobtitle"/><html:errors property="jobtitle"/><br/>
+			email : <html:text property="email"/><html:errors property="email"/><br/>
+			lastname : <html:text property="lastname"/><html:errors property="lastname"/><br/>
+			firstname : <html:text property="firstname"/><html:errors property="firstname"/><br/>
+			reportsto : <html:text property="reportsto"/><html:errors property="reportsto"/><br/>
+			<html:submit/><html:cancel/>
+		</html:form>
+	</body>
+</html>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="kayitForm" type="com.yourcompany.struts.form.KayitForm" />
+    <form-bean name="dilSecForm" type="com.yourcompany.struts.form.DilSecForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="kayitForm"
+      input="/kayit.jsp"
+      name="kayitForm"
+      path="/kayit"
+      scope="request"
+      type="com.yourcompany.struts.action.KayitAction">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action
+      attribute="dilSecForm"
+      input="/index.jsp"
+      name="dilSecForm"
+      path="/dilSec"
+      scope="request"
+      type="com.yourcompany.struts.action.DilSecAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="git" path="/kayit.jsp" />
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>
+

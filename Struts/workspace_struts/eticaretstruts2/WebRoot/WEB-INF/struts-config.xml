@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="uyeKontrolForm" type="org.cdernek.struts.form.UyeKontrolForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="uyeKontrolForm"
+      input="/form/uyeKontrol.jsp"
+      name="uyeKontrolForm"
+      path="/uyeKontrol"
+      scope="request"
+      type="org.cdernek.struts.action.UyeKontrolAction">
+      <forward name="basarisiz" path="/form/uyeKontrol.jsp" />
+      <forward name="basarili" path="/uye.jsp" />
+    </action>
+    <action
+      input="/uye.jsp"
+      path="/alisVerisSepeti"
+      type="org.cdernek.struts.action.AlisVerisSepetiAction"
+      validate="false">
+      <forward name="tekrar" path="/uye.jsp" />
+      <forward name="urunGoster" path="/urunListele.jsp" />
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="org.cdernek.struts.ApplicationResources" />
+</struts-config>
+

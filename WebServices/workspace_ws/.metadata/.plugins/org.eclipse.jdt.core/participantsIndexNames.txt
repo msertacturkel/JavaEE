@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+D:\ileriJavaKasim2013\workspace_ws\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1866658031.index
+\MyWS\src
+D:\ileriJavaKasim2013\workspace_ws\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3059532394.index
+\jsprj\src
+D:\ileriJavaKasim2013\workspace_ws\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1215954637.index
+\ajax1\src

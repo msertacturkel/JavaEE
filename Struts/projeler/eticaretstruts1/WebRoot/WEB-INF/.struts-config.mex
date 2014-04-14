@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/uyeKontrol.do" location="50,50" dimension="326,108" />
+  <StrutsActivity path="/alisVerisSepeti.do" location="405,255" dimension="150,100" />
+  <StrutsActivity path="/form/uyeKontrol.jsp" location="650,50" dimension="171,54" />
+  <StrutsActivity path="/uye.jsp" location="135,255" dimension="150,100" />
+  <StrutsActivity path="/urunListele.jsp" location="660,255" dimension="150,100" />
+  <StrutsTransition id="/alisVerisSepeti.do,tekrar,/uye.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="405,335" />
+      <AbsolutePoint location="285,335" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/uyeKontrol.do,basarili,/uye.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="213,158" />
+      <AbsolutePoint location="213,255" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/uyeKontrol.do,basarisiz,/form/uyeKontrol.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="376,119" />
+      <AbsolutePoint location="735,119" />
+      <AbsolutePoint location="735,104" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/alisVerisSepeti.do,urunGoster,/urunListele.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="555,305" />
+      <AbsolutePoint location="660,305" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/uyeKontrol.jsp,null,/uyeKontrol.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,77" />
+      <AbsolutePoint location="376,77" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/uye.jsp,null,/alisVerisSepeti.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="285,305" />
+      <AbsolutePoint location="405,305" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="registerForm" type="org.csystem.struts.form.RegisterForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="registerForm"
+      input="/register.jsp"
+      name="registerForm"
+      path="/register"
+      scope="request"
+      type="org.csystem.struts.action.RegisterAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="basarili" path="/uye.jsp" />
+      <forward name="basarisiz" path="/basarisiz.jsp" />
+      
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="org.csystem.struts.ApplicationResources" />
+</struts-config>
+

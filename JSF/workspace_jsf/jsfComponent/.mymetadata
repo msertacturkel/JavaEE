@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="jsfComponent"
+  id="myeclipse.1392545876395"
+  context-root="/jsfComponent"
+  j2ee-spec="6.0"
+  archive="jsfComponent.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

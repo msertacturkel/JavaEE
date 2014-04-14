@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+D:\ileriJavaKasim2013\workspace_hiber\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1536392310.index
+\hiberStruts1\src

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="autocompleteAjax"
+  id="myeclipse.1334905766265"
+  context-root="/autocompleteAjax"
+  j2ee-spec="5.0"
+  archive="autocompleteAjax.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

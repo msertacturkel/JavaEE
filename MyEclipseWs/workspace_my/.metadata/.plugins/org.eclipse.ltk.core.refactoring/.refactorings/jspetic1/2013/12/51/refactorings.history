@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MainServlet.java&apos; to &apos;jspetic1/src/serv&apos;&#x0D;&#x0A;- Original project: &apos;jspetic1&apos;&#x0D;&#x0A;- Destination element: &apos;jspetic1/src/serv&apos;&#x0D;&#x0A;- Original element: &apos;MainServlet.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;serv" element1="/src&lt;{MainServlet.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1387621342303" units="1" version="1.0"/>
+</session>

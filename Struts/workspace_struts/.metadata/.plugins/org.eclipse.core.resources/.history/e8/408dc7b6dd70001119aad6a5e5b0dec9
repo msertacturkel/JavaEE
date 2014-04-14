@@ -1,0 +1,14 @@
+package org.csystem.struts.forms;
+
+import org.apache.struts.action.ActionForm;
+
+public class EmployeeForm extends ActionForm {
+
+	private String lastname;
+	private String firstname;
+	private String extension;
+	private String email;
+	private Integer reportsto;
+	private String jobtitle;
+
+}

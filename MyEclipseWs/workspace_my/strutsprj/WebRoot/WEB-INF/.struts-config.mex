@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/deneme.do" location="75,180" dimension="290,96" />
+  <StrutsActivity path="/form/deneme.jsp" location="165,30" dimension="127,51" />
+  <StrutsTransition id="/form/deneme.jsp,null,/deneme.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="220,81" />
+      <AbsolutePoint location="220,180" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

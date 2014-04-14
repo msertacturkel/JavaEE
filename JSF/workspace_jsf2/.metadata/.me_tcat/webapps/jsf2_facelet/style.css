@@ -1,0 +1,19 @@
+#header {
+ text-align: center;
+ height: 50px;
+ border: 1px solid black;
+ font-size: 48px;
+ padding: 10px;
+}
+#menu {
+ height: 20px;
+ background-color: #ecdfec;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+ border-bottom: 1px solid black;
+ vertical-align: middle;
+ padding: 5px;
+}
+#content {
+ padding: 10px;
+}

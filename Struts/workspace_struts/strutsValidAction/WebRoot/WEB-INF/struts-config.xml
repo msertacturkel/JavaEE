@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="uyeKontrolForm" type="com.yourcompany.struts.form.UyeKontrolForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="uyeKontrolForm"
+      input="/uyeKontrol.jsp"
+      name="uyeKontrolForm"
+      path="/uyeKontrol"
+      scope="request"
+      type="com.yourcompany.struts.action.UyeKontrolAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="basarili" path="/uye.jsp" />
+      <forward name="basarisiz" path="/uyeKontrol.jsp" />
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>
+

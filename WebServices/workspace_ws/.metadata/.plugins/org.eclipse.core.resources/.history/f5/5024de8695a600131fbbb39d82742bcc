@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	function setMessage(message) {
+		var userMessageElement = document.getElementById("userIdMessage");
+		userMessageElement.innerHTML = "<font color=\"red\">" + message
+				+ " </font>";
+	}
+</script>
+
+</head>
+
+<body>
+	This is my HTML page.
+	<br>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	function message(param) {
+		alert("Merhaba"+param);
+	}
+</script>
+
+
+</head>
+
+<body>
+
+	<input type="button" value="bas" onclick="message('Murat')" />
+</body>
+</html>

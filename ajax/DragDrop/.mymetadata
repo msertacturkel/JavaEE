@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="DragDrop"
+  id="myeclipse.1242239436091"
+  context-root="/DragDrop"
+  j2ee-spec="5.0"
+  archive="DragDrop.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

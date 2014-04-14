@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="uyeKontrolForm" type="com.yourcompany.struts.form.UyeKontrolForm" />
+    <form-bean name="urunSecForm" type="com.yourcompany.struts.form.UrunSecForm" />
+    <form-bean name="urunEkleForm" type="com.yourcompany.struts.form.UrunEkleForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="uyeKontrolForm"
+      input="/uyeKontrol.jsp"
+      name="uyeKontrolForm"
+      path="/uyeKontrol"
+      scope="request"
+      type="com.yourcompany.struts.action.UyeKontrolAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="uyedegil" path="/uyeKontrol.jsp" />
+    </action>
+    <action
+      attribute="urunSecForm"
+      input="/uyeKontrol.jsp"
+      name="urunSecForm"
+      path="/urunSec"
+      scope="request"
+      type="com.yourcompany.struts.action.UrunSecAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="listele" path="/son.jsp" />
+    </action>
+    <action
+      attribute="urunEkleForm"
+      input="/urunEkle.jsp"
+      name="urunEkleForm"
+      path="/urunEkle"
+      scope="request"
+      type="com.yourcompany.struts.action.UrunEkleAction">
+      <set-property property="cancellable" value="true" />
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>
+

@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package org.csystem.beans;
+
+/**
+ * @author Administrator
+ *
+ */
+public class UserBean {
+	public UserBean() {
+	}
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+	version="1.2">
+
+	<!-- Navigation rules -->
+	<navigation-rule>
+		<description>Login</description>
+		<from-view-id>/index.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>login</from-outcome>
+			<to-view-id>/availableBooks.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<description>List of books</description>
+		<from-view-id>/admin.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>editBook</from-outcome>
+			<to-view-id>/editBook.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<description>Add or edit a book</description>
+		<from-view-id>/editBook.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>listBooks</from-outcome>
+			<to-view-id>/admin.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<description>Borrow book</description>
+		<from-view-id>/availableBooks.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>info</from-outcome>
+			<to-view-id>/info.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<description>Back to home page</description>
+		<from-view-id>/info.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>back</from-outcome>
+			<to-view-id>/availableBooks.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<!-- Managed beans -->
+	<managed-bean>
+		<description>
+			Book bean
+		</description>
+		<managed-bean-name>bookBean</managed-bean-name>
+		<managed-bean-class>shop.Book</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+
+	<managed-bean>
+		<description>
+			User bean
+		</description>
+		<managed-bean-name>userBean</managed-bean-name>
+		<managed-bean-class>shop.User</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+
+	<managed-bean>
+		<description>
+			BookList Bean
+		</description>
+		<managed-bean-name>bookListBean</managed-bean-name>
+		<managed-bean-class>shop.BookList</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+</faces-config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="115,40" size="269,77">
+    <action name="hello" location="109,27" size="150,40" />
+  </package>
+</Struts2Diagram>
+

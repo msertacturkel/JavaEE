@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="uyeKontrolForm" type="com.yourcompany.struts.form.UyeKontrolForm" />
+    <form-bean name="urunSecForm" type="com.yourcompany.struts.form.UrunSecForm" />
+    <form-bean name="urunGirForm" type="com.yourcompany.struts.form.UrunGirForm" />
+    <form-bean name="sepeteAtForm" type="com.yourcompany.struts.form.SepeteAtForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards >
+    <forward name="anaSayfa" path="/index.jsp" />
+
+  </global-forwards>
+
+  <action-mappings >
+    <action
+      attribute="uyeKontrolForm"
+      input="/uyeKontrol.jsp"
+      name="uyeKontrolForm"
+      path="/uyeKontrol"
+      scope="request"
+      type="com.yourcompany.struts.action.UyeKontrolAction">
+      <set-property property="cancellable" value="true" />
+      
+      <forward name="basarisiz" path="/uyeKontrol.jsp" />
+      <forward name="git" path="/urunSec.do" />
+    </action>
+    <action
+      attribute="urunSecForm"
+      name="urunSecForm"
+      path="/urunSec"
+      scope="request"
+      type="com.yourcompany.struts.action.UrunSecAction">
+      <set-property property="cancellable" value="false" />
+      <forward name="listele" path="/urunGoster.jsp" />
+    </action>
+    <action
+      attribute="urunGirForm"
+      input="/urunGir.jsp"
+      name="urunGirForm"
+      path="/urunGir"
+      scope="request"
+      type="com.yourcompany.struts.action.UrunGirAction">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action
+      attribute="sepeteAtForm"
+      input="/urunGoster.jsp"
+      name="sepeteAtForm"
+      path="/sepeteAt"
+      scope="request"
+      type="com.yourcompany.struts.action.SepeteAtAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="listele" path="/secilenler.jsp" />
+    </action>
+    <action
+      input="/index.jsp"
+      path="/islemSec"
+      type="com.yourcompany.struts.action.IslemSecAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="yeniUrunEkle" path="/urunGir.jsp" />
+      <forward name="uyeKontrol" path="/uyeKontrol.jsp" />
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>
+

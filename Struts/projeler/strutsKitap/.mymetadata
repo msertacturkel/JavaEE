@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="strutsKitap"
+  id="myeclipse.1300524521131"
+  context-root="/strutsKitap"
+  j2ee-spec="5.0"
+  archive="strutsKitap.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	function setMessage(message) {
+		var userMessageElement = document.getElementById("userIdMessage");
+		userMessageElement.innerHTML = "<font color=\"red\">" + message
+				+ " </font>";
+	}
+</script>
+
+</head>
+
+<body>
+	<form name="form1">
+		<div style="position:absolute; top:50px;left:100px" id="userIdMessage">Merhaba</div>
+		<input type="button" value="bas" onclick="setMessage('deneme')" />
+	</form>
+
+</body>
+</html>

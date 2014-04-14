@@ -1,0 +1,5 @@
+package com.yourcompany.struts;
+
+public class DailyForecast {
+
+}

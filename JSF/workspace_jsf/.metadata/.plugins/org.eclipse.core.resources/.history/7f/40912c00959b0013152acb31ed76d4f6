@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JSFFlowViewLayout version="1.0">
+  <Drawing gridVisible="true" snapOn="true" />
+  <JSFFlowResource path="/userCheck.jsp" location="40,80" dimension="116,36" />
+  <JSFFlowResource path="/son.jsp" location="40,180" dimension="83,36" />
+  <JSFFlowNavigationCase id="/userCheck.jsp,/son.jsp,basarili,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="81,116" />
+      <AbsolutePoint location="81,180" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/userCheck.jsp,/userCheck.jsp,basarisiz,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="98,80" />
+      <AbsolutePoint location="98,42" />
+      <AbsolutePoint location="193,42" />
+      <AbsolutePoint location="193,98" />
+      <AbsolutePoint location="156,98" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+</JSFFlowViewLayout>
+
