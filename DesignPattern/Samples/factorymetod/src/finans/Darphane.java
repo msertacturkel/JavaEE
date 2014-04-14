@@ -1,0 +1,7 @@
+package finans;
+
+public abstract class Darphane {
+
+	public abstract  Para paraBas(int nominalDeger);
+	
+}

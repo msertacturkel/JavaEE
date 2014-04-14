@@ -1,0 +1,13 @@
+package myactions;
+
+import org.csystem.struts.Action;
+
+public class MyAction{
+
+	
+	public void execute() {
+		System.out.println("calistirildi");
+
+	}
+
+}

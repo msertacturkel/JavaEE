@@ -1,0 +1,15 @@
+package finans;
+
+public class TCDarphane extends Darphane {
+	@Override
+	public Para paraBas(int nominalDeger,String sembol) {
+		Para l = new Lira(nominalDeger, sembol);
+		return l;
+	}
+
+	public String toString() {
+
+		return "Türkiyenin darphanesi";
+	}
+
+}

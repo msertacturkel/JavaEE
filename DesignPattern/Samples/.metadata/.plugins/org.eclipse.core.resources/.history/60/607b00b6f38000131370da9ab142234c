@@ -1,0 +1,13 @@
+package myactions;
+
+import org.csystem.struts.Action;
+
+public class MyAction extends Action {
+
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

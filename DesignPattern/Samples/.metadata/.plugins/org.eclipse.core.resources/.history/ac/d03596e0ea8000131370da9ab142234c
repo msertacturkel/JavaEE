@@ -1,0 +1,5 @@
+package finans;
+
+public class Lira extends Para {
+
+}

@@ -1,0 +1,11 @@
+
+
+public class LiraBas extends Lira {
+
+	protected LiraBas(int nominalDeger, String sembol) {
+		super(199, "TL");
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

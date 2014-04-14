@@ -1,0 +1,15 @@
+package finans;
+
+public class LiraBas extends Lira {
+
+	protected LiraBas(int nominalDeger, String sembol) {
+		super(nominalDeger, sembol);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+}

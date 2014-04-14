@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;iterator2/src&apos;&#x0D;&#x0A;- Original project: &apos;iterator1&apos;&#x0D;&#x0A;- Destination element: &apos;iterator2/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Test.java&#x0D;&#x0A;     ArrayIterator.java&#x0D;&#x0A;     Personel.java&#x0D;&#x0A;     Yazilim.java&#x0D;&#x0A;     ArrayListIterator.java&#x0D;&#x0A;     Muhasebe.java" description="Copy compilation units" destination="=iterator2/src" element1="/src&lt;{Test.java" element2="/src&lt;{ArrayIterator.java" element3="/src&lt;{Personel.java" element4="/src&lt;{Yazilim.java" element5="/src&lt;{ArrayListIterator.java" element6="/src&lt;{Muhasebe.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1390035431669" units="6" version="1.0"/>
+</session>

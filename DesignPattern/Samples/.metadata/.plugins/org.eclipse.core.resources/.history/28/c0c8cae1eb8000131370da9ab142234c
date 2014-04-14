@@ -1,0 +1,8 @@
+public class Test {
+
+	public static void main(String[] args) {
+		LiraBas l = new LiraBas(100, "TL");
+		System.out.println(l.toString());
+	}
+
+}

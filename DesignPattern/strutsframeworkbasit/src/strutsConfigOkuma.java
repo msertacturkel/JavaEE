@@ -1,0 +1,35 @@
+import java.io.IOException;
+
+import org.jdom.Attribute;
+import org.jdom.Document;
+import org.jdom.Element;
+import org.jdom.JDOMException;
+import org.jdom.input.SAXBuilder;
+
+public class strutsConfigOkuma {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		SAXBuilder sb = new SAXBuilder();
+		Document doc;
+		try {
+			doc = sb.build("web-inf/struts-config.xml");
+			Element root = doc.getRootElement();			
+			String actionName = root.getChild("action-mappings")
+					.getChild("action").getAttribute("type").getValue();
+			
+			System.out.println(actionName);
+
+		} catch (JDOMException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

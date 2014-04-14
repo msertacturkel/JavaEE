@@ -1,0 +1,8 @@
+INDEX VERSION 1.3+D:\ileriJavaKasim2013\designPattern\workspace2014\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2996873514.index
+217403055.index
+4030634165.index
+1297013223.index
+4098309311.index
+3179917563.index
+3935415817.index

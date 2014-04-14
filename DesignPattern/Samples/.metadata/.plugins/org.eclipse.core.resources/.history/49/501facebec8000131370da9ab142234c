@@ -1,0 +1,12 @@
+import finans.Lira;
+import finans.TCDarphane;
+
+public class Test {
+
+	public static void main(String[] args) {
+		TCDarphane tc=new TCDarphane();
+		Lira l = (Lira)tc.paraBas(50,"TL");
+		System.out.println(l.toString());
+	}
+
+}

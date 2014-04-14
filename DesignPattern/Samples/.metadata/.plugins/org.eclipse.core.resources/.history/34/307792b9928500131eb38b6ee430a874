@@ -1,0 +1,16 @@
+<?xmlversion="1.0"encoding="UTF-8"?>
+
+<struts-config>
+	<data-sources />
+	<form-beans />
+	<global-exceptions />
+	<global-forwards />
+	<action-mappings>
+		<action path="/my" type="myactions.MyAction">
+			<set-property property="cancellable" value="true" />
+		</action>
+
+	</action-mappings>
+
+	<message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>

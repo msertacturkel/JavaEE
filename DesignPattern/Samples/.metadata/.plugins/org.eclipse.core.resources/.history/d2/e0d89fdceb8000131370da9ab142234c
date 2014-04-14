@@ -1,0 +1,13 @@
+import finans.Lira;
+
+
+
+public class LiraBas extends Lira {
+
+	protected LiraBas(int nominalDeger, String sembol) {
+		super(nominalDeger, sembol);
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}
