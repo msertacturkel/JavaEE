@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PersonelBilgi>
+	<Personel>
+		<Bolum>Muhasebe</Bolum>
+		<Ad>Ahmet</Ad>
+		<Soyad>Murat</Soyad>
+	</Personel>
+	<Personel>
+		<Bolum>Bilgisayar</Bolum>
+		<Ad>Murat</Ad>
+		<Soyad>Hakan</Soyad>
+	</Personel>
+</PersonelBilgi>

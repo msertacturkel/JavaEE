@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by cdernek (cdernek) -->
+<Okul>
+	<Ogrenci>
+		<AdSoyad>Mehmet Sahin</AdSoyad>
+		<Yas>15</Yas>
+	</Ogrenci>
+	<Ogrenci>
+		<AdSoyad>Ali Kaya</AdSoyad>
+		<Yas>14</Yas>
+	</Ogrenci>
+</Okul>
+

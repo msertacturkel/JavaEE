@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<okul-cesidi> 
+   <okul>Ilkokul</okul>
+   <okul>Ortaokul</okul>
+   <okul>Lise</okul>
+   <okul>Universite</okul>
+ </okul-cesidi> 

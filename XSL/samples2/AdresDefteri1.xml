@@ -1,0 +1,38 @@
+<!DOCTYPE AdresDefteri SYSTEM "D:\ileriJavaKasim2013\xml\ornekler\AdresDefteri1.dtd">
+<AdresDefteri>
+	<Giris>
+		<AdSoyad>Haka</AdSoyad>
+		<Adres>
+			<Mahalle>Mecidiyekoy</Mahalle>
+			<Sehir>Istanbul</Sehir>
+		</Adres>
+		<Tel>11111</Tel>
+		<Tel>1110</Tel>
+		<Tel>222222</Tel>
+	</Giris>
+	<Giris>
+		<AdSoyad>Murat</AdSoyad>
+		<Adres>
+			<Mahalle>Mecid</Mahalle>
+			<Posta-Kodu>
+				<Posta>www</Posta>
+				<Kodu>222</Kodu>
+			</Posta-Kodu>
+			<Sehir>Ankara</Sehir>
+		</Adres>
+	</Giris>
+	<Giris>
+		<AdSoyad>Mustafa</AdSoyad>
+		<Adres>
+			<Mahalle>Bagcilar</Mahalle>
+			<Posta-Kodu>
+				<Posta>www</Posta>
+				<Kodu>222</Kodu>
+			</Posta-Kodu>
+			<Sehir>Istanbul</Sehir>
+		</Adres>
+		<Tel>11111</Tel>
+		<Tel>1110</Tel>
+		<Tel>222222</Tel>
+	</Giris>
+</AdresDefteri>

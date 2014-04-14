@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by cdernek (cdernek) -->
+<Bolum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/ileriJavaKasim2013/xml/ornekler/Bolum1.xsd">
+	<Personel cinsiyet="erkek">
+		<Ad>Sertac</Ad>
+		<Soyad>Turkel</Soyad>
+		<telefon>1111222</telefon>
+		<telefon>333</telefon>
+		<Adres>
+			<il>Istanbul</il>
+			<ilce>Sisli</ilce>
+		</Adres>
+	</Personel>
+	<Personel>
+		<Ad>Eren</Ad>
+		<Soyad>Yazici</Soyad>
+		<telefon>2222</telefon>
+	</Personel>
+	<Personel>
+		<Ad>Vahit</Ad>
+		<Soyad>Güler</Soyad>
+		<telefon>444444</telefon>
+	</Personel>
+	<Personel>
+		<Ad>Ali</Ad>
+		<Soyad>Karaduran</Soyad>
+		<telefon>222222</telefon>
+	</Personel>
+</Bolum>

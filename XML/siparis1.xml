@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<siparisler>
+  <siparis>
+    <urunadi>Ferrrari</urunadi>
+    <miktar>2</miktar>
+  </siparis>
+  <siparis>
+    <urunadi>Ford</urunadi>
+    <miktar>5</miktar>
+  </siparis>
+  <siparis>
+    <urunadi>BMW</urunadi>
+    <miktar>3</miktar>
+  </siparis>
+</siparisler>
+

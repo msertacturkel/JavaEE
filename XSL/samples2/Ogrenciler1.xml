@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ogrenciler xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/ileriJavaKasim2013/xml/ornekler/Ogrenciler2.xsd">
+	<Ogrenci sinif="2a" no="123">
+		<Ad>Vural</Ad>
+		<Soyad>Uzun</Soyad>
+		<Dogum>1978</Dogum>
+		<Sehir>Bursa</Sehir>
+		<Maas>1250</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="3d" no="234">
+		<Ad>Hasan</Ad>
+		<Soyad>Cakir</Soyad>
+		<Dogum>1982</Dogum>
+		<Sehir>Ankara</Sehir>
+		<Maas>1300</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="4s">
+		<Ad>Huseyin</Ad>
+		<Soyad>Kaymaz</Soyad>
+		<Dogum>1988</Dogum>
+		<Sehir>Bursa</Sehir>
+		<Maas>1500</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="2s">
+		<Ad>Ayse</Ad>
+		<Soyad>Solmaz</Soyad>
+		<Dogum>1980</Dogum>
+		<Sehir>Bursa</Sehir>
+		<Maas>1000</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="3f">
+		<Ad>Berna</Ad>
+		<Soyad>Yilmaz</Soyad>
+		<Dogum>1989</Dogum>
+		<Sehir>Kocaeli</Sehir>
+		<Maas>1500</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="2a">
+		<Ad>Yavuz</Ad>
+		<Soyad>Çam</Soyad>
+		<Dogum>1975</Dogum>
+		<Sehir>Kars</Sehir>
+		<Maas>1750</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="3a">
+		<Ad>Ahmet</Ad>
+		<Soyad>Türk</Soyad>
+		<Dogum>1960</Dogum>
+		<Sehir>Bursa</Sehir>
+		<Maas>1000</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="4c">
+		<Ad>Bahadir</Ad>
+		<Soyad>Aslan</Soyad>
+		<Dogum>1972</Dogum>
+		<Sehir>Burdur</Sehir>
+		<Maas>1450</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="2c">
+		<Ad>Güray</Ad>
+		<Soyad>Pamuk</Soyad>
+		<Dogum>1970</Dogum>
+		<Sehir>Hakkari</Sehir>
+		<Maas>1480</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="3d">
+		<Ad>Sevil</Ad>
+		<Soyad>Bikmaz</Soyad>
+		<Dogum>1997</Dogum>
+		<Sehir>Erzurum</Sehir>
+		<Maas>5000</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="3d">
+		<Ad>Ismail</Ad>
+		<Soyad>Yilmaz</Soyad>
+		<Dogum>1981</Dogum>
+		<Sehir>Bursa</Sehir>
+		<Maas>10000</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="2s">
+		<Ad>Ismail</Ad>
+		<Soyad>Yilmaz</Soyad>
+		<Dogum>1981</Dogum>
+		<Sehir>Bursa</Sehir>
+		<Maas>10000</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="3d">
+		<Ad>Murat</Ad>
+		<Soyad>Orta</Soyad>
+		<Dogum>1985</Dogum>
+		<Sehir>Samsun</Sehir>
+		<Maas>10000</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="4c">
+		<Ad>Murat</Ad>
+		<Soyad>Orta</Soyad>
+		<Dogum>1985</Dogum>
+		<Sehir>Samsun</Sehir>
+		<Maas>10000</Maas>
+	</Ogrenci>
+	<Ogrenci sinif="2c">
+		<Ad>Hakan</Ad>		
+		<Soyad>Tas</Soyad>
+		<Sehir>Samsun</Sehir>
+	</Ogrenci>
+	<Ogrenci sinif="2c">
+		<Ad>Seher</Ad>
+		<Soyad>Ozcelik</Soyad>
+		<Maas>4500</Maas>
+	</Ogrenci>
+	<Ogrenci>
+		<Ad>Ozgur</Ad>
+		<Soyad>Caparaoglu</Soyad>
+		<Maas>10000</Maas>
+	</Ogrenci>
+</Ogrenciler>

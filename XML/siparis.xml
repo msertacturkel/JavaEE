@@ -1,0 +1,15 @@
+<siparisler>
+	<siparis>
+		<urunadi>Ferrari</urunadi>
+	</siparis>
+
+	<siparis>		
+		<urunadi>Ford</urunadi>
+		<miktar> 12</miktar>		
+	</siparis>
+
+	<siparis>
+		<urunadi>Hyundai</urunadi>
+		<miktar> 12</miktar>
+	</siparis>
+</siparisler>

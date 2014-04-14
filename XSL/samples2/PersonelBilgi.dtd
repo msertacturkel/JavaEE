@@ -1,0 +1,4 @@
+<!ELEMENT Soyad (#PCDATA)>
+<!ELEMENT PersonelBilgi ((Bolum, Ad, Soyad))>
+<!ELEMENT Bolum (#PCDATA)>
+<!ELEMENT Ad (#PCDATA)>

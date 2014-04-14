@@ -1,0 +1,9 @@
+<!ELEMENT AdresDefteri (Giris+)>
+<!ELEMENT Giris (AdSoyad,Adres,Tel*) >
+<!ELEMENT AdSoyad (#PCDATA) >
+<!ELEMENT Adres (Mahalle,Posta-Kodu?,Sehir) >
+<!ELEMENT Mahalle (#PCDATA) >
+<!ELEMENT Posta-Kodu (#PCDATA)>
+<!ELEMENT Sehir (#PCDATA)>
+<!ELEMENT Tel (#PCDATA)> 
+

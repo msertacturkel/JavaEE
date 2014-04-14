@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ogrenci-kayit>
+	<ogrenci no="12" cins="e">
+		<ad>Ahmet</ad>
+		<soyad>Akar</soyad>
+		<dogTar>12-03-1987</dogTar>
+		<dogYer>Bursa</dogYer>
+		<veliAd>Kemal   </veliAd>
+		<sinif>4-C</sinif>
+	</ogrenci>
+	<ogrenci no="2">
+		<ad>Mehmet</ad>
+		<soyad>Bakan</soyad>
+		<dogTar>10-06-1988</dogTar>
+		<dogYer>Bolu</dogYer>
+		<veliAd>Bekir</veliAd>
+		<sinif>3-C</sinif>
+	</ogrenci>
+	<ogrenci no="3">
+		<ad>Veli</ad>
+		<soyad>Cosar</soyad>
+		<dogTar>08-06-1985</dogTar>
+		<dogYer>Istanbul</dogYer>
+		<veliAd>Nazim</veliAd>
+		<sinif>6-A</sinif>
+	</ogrenci>
+	<ogrenci no="4" cinsiyet="k">
+		<ad>Mine</ad>
+		<soyad>Oztorun</soyad>
+		<dogTar>10-03-1986</dogTar>
+		<dogYer>Ankara</dogYer>
+		<veliAd>Ayse</veliAd>
+		<sinif>4-C</sinif>
+	</ogrenci>
+	<ogrenci no="5">
+		<ad>Mine</ad>
+		<soyad>Kaya</soyad>
+		<dogTar>13-03-1987</dogTar>
+		<dogYer>Bursa</dogYer>
+		<veliAd>Fatma</veliAd>
+		<sinif>4-C</sinif>
+	</ogrenci>
+	<ogrenci no="6">
+		<ad>Hakan</ad>
+		<soyad>Kisa</soyad>
+		<dogTar>08-06-1981</dogTar>
+		<dogYer>Istanbul</dogYer>
+		<veliAd>Burak</veliAd>
+		<sinif>8-A</sinif>
+	</ogrenci>
+	<ogretmen sinif="4-C">
+		<ad>Ali</ad>
+		<soyad>Koral</soyad>
+		<dogTar>12-08-1949</dogTar>
+		<dogYer>Ankara</dogYer>
+	</ogretmen>
+	<ogretmen sinif="8-A">
+		<ad>Sevda</ad>
+		<soyad>Catal</soyad>
+		<dogTar>12-08-1985</dogTar>
+		<dogYer>Istanbul</dogYer>
+	</ogretmen>
+</ogrenci-kayit>
